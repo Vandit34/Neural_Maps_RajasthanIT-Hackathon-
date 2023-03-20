@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+#content_1
+{
+
+    background: orangered;
+    display: flex;
+    height: 61vh;
+    width: 44vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+position: relative;
+top: 6em;
+border-radius: 1em;
+font-family: 'Lato', sans-serif;
+}
+.detail
+{
+    height: 4em;
+    font-size: 25px;
+padding: 1em;
+}
+
+#content_2
+{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 7em;
+    font-family: 'Lato', sans-serif;
+}
+#avatar_img img
+{
+    width: 21em;
+}
+#avatar_options
+{
+    background: orangered;
+display: flex;
+justify-content: space-around;
+}
+
+.button
+{
+    width: 5em;
+    height: 6em;
+    cursor: pointer;
+}
+
+#Home_Navigation
+{
+    position: absolute;
+        bottom: 18px;
+    left: 15px;
+    
+}
+#Home_Navigation input
+{
+    font-size: 2em;
+    cursor: pointer;
+}
+#Choose span
+{
+    font-size: 2em;
+}

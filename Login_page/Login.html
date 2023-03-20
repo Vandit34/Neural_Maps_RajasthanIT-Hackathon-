@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- -----------Content_Font--------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<!-- ------------------------------- -->
+
+    <!------------- Brand_name_Font ------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap" rel="stylesheet">
+   <!-- ------------------------------- -->
+      <!-- ---------Favicon ---------->
+   <link rel="apple-touch-icon" sizes="180x180" href="../Content/Favicon/favicon_io/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="../Content/Favicon/favicon_io/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../Content/Favicon/favicon_io/favicon-16x16.png">
+   <link rel="manifest" href="../Content/Favicon/favicon_io/site.webmanifest">
+      <!------------------------  -->
+<title>Login Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+      }
+      body
+      {
+        background-color: black;
+        display: flex;
+flex-direction: column;
+    }
+nav
+{
+    width: 100%;
+    
+}
+#nav_content_id
+{
+    display: flex;
+    margin-bottom: 7em;
+  margin-top: 2em;
+}
+
+
+#nav_content_logo img
+{
+    border-radius: 93px;
+    width: 8rem;
+height: 7rem;
+position: relative;
+left: 18px;
+}
+    
+#nav_content_brandname
+{
+    position: relative;
+    left: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+#nav_content_brandname span
+{
+    font-family: 'Rubik Maze', cursive;
+    font-size: 3em;
+    color: orangered;
+}
+h1
+      {
+        color: orangered;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        width: 51vw;
+        border: solid orangered;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px -1px 300px 6px orangered;
+        padding: 2em;
+      }
+
+      .fa-solid {
+        margin: 17px;
+        position: absolute;
+        color: orangered;
+      }
+      input {
+        border: none;
+        width: 280px;
+        height: 52px;
+        padding-left: 61px;
+        font-size: 20px;
+        background-color: transparent;
+        color: orangered;
+
+      }
+      /* .input :hover {
+        border: none;
+      } */
+
+      input:focus {
+        /* border: none; */
+        outline: none;
+      }
+      .data {
+        width: 56%;
+        margin: 24px;
+      }
+      .data:hover {
+        border-bottom: 2px solid orangered;
+      }
+      #checkbox_id {
+        display: flex;
+        align-items: center;
+        width: 82%;
+        justify-content: space-evenly;
+      }
+      #checkbox_inner_id {
+        display: flex;
+        align-items: center;
+      }
+      #rem_me {
+        width: 15px;
+        margin-right: 10px;
+      }
+      #login_id {
+        padding: 9px;
+
+        padding-left: 22%;
+        padding-right: 25%;
+        margin-bottom: 10%;
+        font-size: 22px;
+        background-color: orangered;
+color: black;
+text-decoration: none;
+      }
+      label
+      {
+        color: orangered;
+      }
+      #sign_up_link_div
+      {
+        color: red;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <nav>
+        <div id="nav_content_id">
+            <div id="nav_content_logo"><img src="../Content/Image/Neural_Map_logo.jpg" alt=""></div>
+            <div id="nav_content_brandname"><span>Neural_Maps</span></div>
+        </div>
+    </nav>
+    <form action="#">
+      <h1>Login</h1>
+      <!-- <i class="fa-solid fa-user"></i>: <input type="text" /> -->
+      <!-- <div class="data">
+        <i class="fa-solid fa-user"></i>
+
+        <input for="Name" type="text" placeholder="Enter your Name" />
+      </div>
+      <br /><br /> -->
+      <div class="data">
+        <i class="fa-solid fa-mobile-button"></i>
+
+        <input
+          for="Contact_No"
+          type="password"
+          placeholder="Enter your Password"
+        />
+      </div>
+      <br /><br />
+      <div class="data">
+        <i class="fa-solid fa-envelope"></i>
+
+        <input type="text" placeholder="Enter your email id" />
+      </div>
+      <br />
+      <br />
+      <div id="checkbox_id">
+        <div id="checkbox_inner_id">
+          <input type="checkbox" id="rem_me" /><label for="rem_me"
+            >Remember me</label
+          >
+        </div>
+        <a href="#">Forget Password ?</a>
+      </div>
+      <br /><br />
+      <a id="login_id" target="_blank" href="../Landing_page/Landing_page.html">Login Now</a> 
+      <div id="sign_up_link_div">
+       <span> Not a member?</span> <a href="../SignUp_page/Sign_up.html" target="_blank" >Signup now</a>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/64d805c103.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

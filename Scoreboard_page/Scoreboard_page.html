@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -----------Content_Font--------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<!-- ------------------------------- -->
+   <!-- ---------Favicon ---------->
+   <link rel="apple-touch-icon" sizes="180x180" href="../Content/Favicon/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Content/Favicon/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Content/Favicon/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="../Content/Favicon/favicon_io/site.webmanifest">
+   <!------------------------  -->
+
+    <link rel="stylesheet" href="./Scoreboard_page.CSS">
+    <title>Scoreboard_Page</title>
+</head>
+<body>
+    <div id="Home_Navigation">
+
+        <a href="../Landing_page/Landing_page.html"> <input value=" 👈Home page" type="button"></input></a>       
+     </div>
+    <div id="Content">
+        <div id="Streak_id">
+            <p class="Streak_content_heading">Streak</p>
+            <div id="Streak_stats_div">
+                <div class="box"  id="box_1">
+                    <span>Current</span>
+                    <h3 class="data" data-count="18">0</h3> 
+                </div>
+                <div class="box" id="box_2">
+                    <span>Longest</span>
+        <h3 class="data" data-count="120">0</h3> 
+                   
+                </div>
+                <div class="box" id="box_3">
+                    <div id="svg_div">
+                        <img src="../Content/Image/Neural_Map_Streak_image.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Scoreboard_id">
+            <p class="Streak_content_heading" >Scoreboard</p>
+            <div id="progress_bar_parent_div">
+              <!-- -------------Progress_Bar------------------ -->
+              <div class="container">
+                <div class="circular-progress">
+                  <div class="value-container">0%</div>
+                </div>
+                </div>
+              <!-- ------------------------------- -->
+              
+            </div>
+            <div id="Scoreboard_content">
+                <p> 60% Close to your current Goal😃 </p>
+            </div>
+        </div>
+    </div>
+    <script src="./Scoreboard_page.JS"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+    height: 100VH;
+}
+  nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 2em; 
+}
+
+#Nav_Profile_Avatar img
+{
+
+    box-shadow: 2px -2px 0px 11px orangered;
+    width: 5em;
+border-radius: 5em;
+position: absolute;
+left: 2em;
+cursor: pointer;
+}
+
+#Nav_Profile_Brand
+{
+    display: flex;
+    position: relative;
+    right: 2em;
+    font-size: 23px;   
+    bottom: 46px;
+}
+
+#Nav_Profile_Brand span
+{
+    color:orangered;
+    font-family: 'Rubik Maze', cursive;
+    display: flex;
+align-items: center;
+font-size: 2em;
+height: 4em;
+}
+
+/* ------------------Boxes------------------- */
+#boxes
+{
+    display: flex;
+    position: relative;
+    top: 10em;
+    animation: shift 2s ease-in forwards;
+    justify-content: space-around;
+}
+@keyframes shift {
+    0%
+    {
+        left:-10000px;
+    }
+   
+100%
+{
+    left:0px;
+}
+}
+.box
+{
+    display: flex;
+
+width: 43%;
+flex-direction: column;
+
+padding-left: 83PX;
+
+background-color: #ff3c00bf;
+border-radius: 58px;
+
+margin:8px;
+height: 527px;
+text-align: center;
+}
+
+.box h2
+{
+    text-decoration: underline;
+    font-size: 3em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    color: black;
+
+}
+.box h2:hover
+{
+    color: rgb(59, 254, 0);
+}
+ #box_1 h2
+{
+
+ margin-top: 20px;
+ font-family: 'Mochiy Pop One', sans-serif;
+}
+#box_1 p
+{
+   font-size: 22px;
+margin-top: 10px;
+line-height: 43px;
+margin-right: 77px;
+font-family: 'Lato', sans-serif;
+}
+#box_1 img{
+      height: 209px;
+  position: relative;
+  
+  right: 55px;
+  top: 15px;
+}
+#box_2 h2
+{
+     margin-top: 18px;
+
+font-family: 'Mochiy Pop One', sans-serif;
+} 
+#box_2 p
+{
+  font-size: 23px;
+margin-top: 1px;
+position: relative;
+right: 39px;
+line-height: 42px;
+font-family: 'Lato', sans-serif;
+}
+#box_2 img
+{
+height: 195px;
+position: relative;
+right: 55px;
+top: 15px;    
+}
+/* ------------------------------------------ */

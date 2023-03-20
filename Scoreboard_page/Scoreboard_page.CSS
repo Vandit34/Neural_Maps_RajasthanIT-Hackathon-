@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+padding: 0;
+box-sizing: bordre-box;
+}
+body
+{
+    background-color: black;
+color: orangered;
+font-family: 'Lato', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#Home_Navigation
+{
+    position: absolute;
+        bottom: 18px;
+    left: 15px;
+    
+}
+#Home_Navigation input
+{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#Content
+{
+    display: flex;
+justify-content: space-around;
+width: 100vw;
+height: 37em;
+}
+
+#progress_bar_parent_div
+{
+    display: flex;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+}
+#Streak_stats_div
+{
+    display: flex;
+    justify-content: space-around;
+    width: 45vw;
+    align-items: center;
+    position: relative;
+top: 20vh;
+background: #fff;
+padding: 2em;
+border-radius: 3em;
+}
+#svg_div img
+{
+    height: 8em;
+}
+
+.box span
+{
+    font-size: 2em;
+}
+#Streak_id
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Scoreboard_id
+{
+display: flex;
+flex-direction: column;
+width: 50%;
+align-items: center;
+}
+
+.Streak_content_heading
+{
+    background-color: rgba(128, 128, 128, 0.567);
+    width: 5em;
+    font-size: 2em;
+    padding: 3px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+/* -------------------------------------- 
+*/
+.container {
+    height: 42vh;
+width: 36vw;
+    background-color: #ffffff;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+    display: grid;
+    place-items: center;
+    margin-bottom: 8em;
+  }
+  .circular-progress {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  .circular-progress:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  .value-container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #231c3d;
+  }
+  /*-------------------------------------  */
+
+  #Scoreboard_content
+  {
+    font-size: 2em;
+  }
+  h3
+  {
+      color: black;
+  }

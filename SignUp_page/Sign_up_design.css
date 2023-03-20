@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: black;
+}
+nav
+{
+    width: 100%;
+    
+}
+#nav_content_id
+{
+    display: flex;
+    margin-bottom: 3em;
+  margin-top: 2em;
+}
+
+
+#nav_content_logo img
+{
+    border-radius: 93px;
+    width: 7rem;
+height: 7rem;
+position: relative;
+left: 18px;
+}
+    
+#nav_content_brandname
+{
+    position: relative;
+    left: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+#nav_content_brandname span
+{
+    font-family: 'Rubik Maze', cursive;
+    font-size: 3em;
+    color: orangered;
+}
+
+
+
+.fa-brands
+{
+ font-size: 65px;
+margin-right: 54px;
+cursor: pointer;
+}
+
+#content
+{
+    display: flex;
+}
+
+
+#form
+{
+width: 60%;
+height: 91%;
+
+display: flex;
+justify-content: center;
+box-shadow: 1px -1px 300px 6px orangered;
+}
+.fields{
+    text-decoration: underline;
+}
+form h2
+{
+    text-align: center;
+font-size: 30px;
+font-family: 'Lato', sans-serif;
+color: orangered;
+}
+form label,input
+{
+    margin-top: 39px;
+
+}
+form input
+{
+    margin-left: 15px;
+}
+form label
+{
+    font-weight: bold;
+font-size: 20px;
+ font-family: 'Lato', sans-serif;
+ color: orangered;
+}
+.fa-solid
+{
+    color: orangered;
+}
+#submit_id
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#button
+{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+cursor: pointer;
+background: white;
+color: black;
+padding: 8px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+}
+#Login_Link
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#Login_Link span
+{
+    font-size:2em ;
+    font-weight: bolder;
+    color: rgb(7, 255, 7);
+margin-right: 1em;
+}
+
+#Login_Link a
+{
+    font-size:2em ;
+    font-weight: bolder;
+    color: rgb(7, 255, 7);
+
+}
+
+

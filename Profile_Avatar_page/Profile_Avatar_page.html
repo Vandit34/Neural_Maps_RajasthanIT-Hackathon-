@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Profile_Avatar_page.CSS">
+    <title>Avatar_Zone</title>
+      <!-- ---------Favicon ---------->
+  <link rel="apple-touch-icon" sizes="180x180" href="../Content/Favicon/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Content/Favicon/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Content/Favicon/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="../Content/Favicon/favicon_io/site.webmanifest">
+     <!------------------------  -->
+     <link rel="stylesheet" href="./Landing_page.CSS">
+     
+<!-- -----------Content_Font--------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<!-- ------------------------------- -->
+
+    <!------------- Brand_name_Font ------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap" rel="stylesheet">
+   <!-- ------------------------------- -->
+</head>
+<body>
+
+    <div id="Home_Navigation">
+
+<a href="../Landing_page/Landing_page.html"> <input value=" 👈Home page" type="button"></input></a>       
+    </div>
+
+    <div id="content_1">
+        <div class="detail"><label for="name">Name: &nbsp; </label><span>Nick</span> </div>
+        <div class="detail"><label for="email">Email_ID: &nbsp;</label><span>Nick123@gmail.com</span> </div>
+        <div class="detail"><label for="gender">Gender: &nbsp;</label><span>Male</span> </div>
+        <div class="detail"><label for="domains">Domains: &nbsp;</label><span>Web Dev, BlockChain Developer</span> </div>
+    </div>
+
+    <div id="content_2">
+        <div id="avatar_img">
+            <img src="../Content/Image/Avatar_1.png" alt="">
+        </div>
+        <div id="avatar_options">
+            <input type="button" class="button click" id="button_1" value="1" onclick="changeAvatar('button_1')">
+            <input type="button" class="button" id="button_2" value="2" onclick="changeAvatar('button_2')">
+            <input type="button" class="button" id="button_3" value="3" onclick="changeAvatar('button_3')">
+          </div>
+          <div id="Choose">
+            <span>👆Choose your Avatar</span>
+          </div>
+          
+    </div>
+    <script src="./Profile_Avatar_page.JS"></script>
+</body>
+</html>
